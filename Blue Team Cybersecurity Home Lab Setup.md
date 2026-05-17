@@ -1,4 +1,4 @@
-# Blue Team Cybersecurity Home Lab Setup
+# Blue Team Home Lab: Enterprise Setup
 Author: Kellie Hucker
 
 ## Overview
