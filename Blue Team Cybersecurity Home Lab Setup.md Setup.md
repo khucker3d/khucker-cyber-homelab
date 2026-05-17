@@ -25,6 +25,7 @@ In addition to standing up core infrastructure, the project involved troubleshoo
 
 
 ## Lab Phases
+*Note: I have detailed documentation on my personal Confluence site*
 ### Phase 1: Home Cybersecurity Lab
 - Established the physical and host-level foundation for the lab environment.
 
