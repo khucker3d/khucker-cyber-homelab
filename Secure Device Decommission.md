@@ -1,4 +1,4 @@
-# Secure Device Decommissioning, BitLocker, Clean Reprovisioning (Windows 10 & Windows 11)
+# Secure Device Decommission: BitLocker, Clean Reprovisioning (Windows 10)
 Author: Kellie Hucker  
 
 ---
