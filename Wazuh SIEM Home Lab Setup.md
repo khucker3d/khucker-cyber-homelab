@@ -1,8 +1,8 @@
-# Wazuh SIEM Home Lab Setup:
+# Wazuh SIEM Home Lab Setup
 Author: Kellie Hucker  
 
 ## Overview
-This project documents the setup of a home cybersecurity lab focused on centralized logging, detection, and visibility using Wazuh SIEM. The lab integrates multiple systems, including Ubuntu (Wazuh server) and Kali Linux, to simulate a real-world environment where logs are collected, forwarded, and analyzed for security insights. This was my first home cybersecurity lab, built on an HP laptop using VirtualBox. The project focused not only on standing up a working SIEM pipeline, but also on troubleshooting real-world issues related to networking, log forwarding, and system integration.
+This project provides a high-level overview of my first cybersecurity home lab, built on an HP workstation using VirtualBox. The lab focused on centralized logging, threat detection, and endpoint visibility using Wazuh SIEM. It integrated multiple systems, including Ubuntu-based Wazuh servers and Kali Linux, to simulate a real-world security monitoring environment where logs were collected, forwarded, indexed, and analyzed for security insights.
 
 ## Objective
 - Build a functional SIEM lab environment  
