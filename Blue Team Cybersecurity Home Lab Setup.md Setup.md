@@ -2,14 +2,11 @@
 Author: Kellie Hucker
 
 ## Overview
-This project is a high-level overview of the design and implementation of a dedicated cybersecurity home lab built on my Acer workstation. The lab was structured in phases, progressing from foundational setup to a fully operational blue team enterprise environment capable of logging, monitoring, and analysis.
+This project provides a high-level overview of the design and implementation of my dedicated cybersecurity home lab, built on an Acer workstation to simulate a structured enterprise-style blue team environment. The lab was developed in phases, progressing from foundational virtualization and networking setup to a fully operational security monitoring environment focused on centralized logging, endpoint visibility, detection engineering, and security analysis.
 
-### Objective
-- Build a structured cybersecurity home lab  
-- Establish a secure and stable host environment  
-- Deploy virtual machines for testing and simulation  
-- Implement blue team monitoring and detection tools  
-- Create a scalable environment for continued learning and experimentation  
+The environment integrates multiple systems and platforms, including Windows, Ubuntu Server, Kali Linux, Wazuh SIEM, and VMware Workstation, to emulate real-world enterprise infrastructure and defensive security workflows. The lab was designed to provide hands-on experience with SIEM deployment, virtual networking, log ingestion pipelines, endpoint telemetry, alert monitoring, and multi-system integration.
+
+In addition to standing up core infrastructure, the project involved troubleshooting real-world operational challenges related to virtual networking, agent communication, log forwarding, Docker-based deployments, and system interoperability. This lab is an active learning environment for blue team operations, security monitoring, incident investigation, and cybersecurity skill development.
 
 ### Lab Architecture
                            INTERNET
