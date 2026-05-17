@@ -13,13 +13,13 @@ This project documents the design and implementation of a dedicated cybersecurit
 - Create a scalable environment for continued learning and experimentation  
 
 ## Lab Phases
-### Phase 1 — Home Cybersecurity Lab
+### Phase 1: Home Cybersecurity Lab
 Established the physical and host-level foundation for the lab environment.
 
-### Phase 2 — Foundations
+### Phase 2: Foundations
 Configured core infrastructure, virtualization, and system hardening.
 
-### Phase 3 — Blue Team Core Setup
+### Phase 3: Blue Team Core Setup
 Deployed monitoring, logging, and detection capabilities.
 
 ## Core Infrastructure
@@ -51,7 +51,6 @@ Deployed monitoring, logging, and detection capabilities.
 
 
 ## Skills Demonstrated
-
 - Lab architecture and environment design  
 - System hardening  
 - Virtualization setup  
@@ -61,7 +60,6 @@ Deployed monitoring, logging, and detection capabilities.
 - Active Directory lab setup  
 
 ## Operational Considerations
-
 - Maintain regular snapshots before major changes  
 - Validate logging pipelines after updates  
 - Monitor system resource usage across VMs  
