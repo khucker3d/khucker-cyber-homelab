@@ -1,4 +1,4 @@
-# Home Cybersecurity Labs:
+# Cybersecurity Home Labs:
 
 ## Blue Team Home Lab: Enterprise Setup
 1. [Blue Team Cybersecurity Home Lab Setup](https://github.com/khucker3d/cyber-homelab-project-overview/blob/main/Blue%20Team%20Cybersecurity%20Home%20Lab%20Setup.md%20Setup.md): Hands-on cybersecurity home lab environment for blue team enterprise training, log analysis, threat detection, and security monitoring.
