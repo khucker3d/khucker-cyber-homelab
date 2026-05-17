@@ -4,12 +4,7 @@ Author: Kellie Hucker
 ## Overview
 This project provides a high-level overview of my first cybersecurity home lab, built on an HP workstation using VirtualBox. The lab focused on centralized logging, threat detection, and endpoint visibility using Wazuh SIEM. It integrated multiple systems, including Ubuntu-based Wazuh servers and Kali Linux, to simulate a real-world security monitoring environment where logs were collected, forwarded, indexed, and analyzed for security insights.
 
-## Objective
-- Build a functional SIEM lab environment  
-- Centralize logs using Wazuh  
-- Forward logs from multiple systems  
-- Validate log ingestion and visibility  
-- Simulate detection and alert generation  
+Beyond deploying a functional SIEM pipeline, this project also involved troubleshooting real-world challenges related to virtual networking, log forwarding, agent communication, and multi-system integration, providing hands-on experience with blue team workflows and security operations concepts.
 
 ## Lab Architecture
 <img width="498" height="550" alt="Screenshot 2026-04-16 at 14 07 39" src="https://github.com/user-attachments/assets/e040b115-48f6-4730-b254-57a8fef3fffe" />
