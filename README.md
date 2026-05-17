@@ -5,7 +5,7 @@
 
 2. [Full Drive BitLocker Encryption (Windows 11 Pro](https://github.com/khucker3d/cyber-homelab-project-overview/blob/main/Full%20Drive%20BitLocker%20Encryption.md): Enabling full disk encryption to protect data, to ensure sensitive data remains protected if a device is lost, stolen, or accessed outside of a trusted boot environment.
 
-4. [Dedicated Cybersecurity IDE and Lab Workspace Setup](https://github.com/khucker3d/cyber-homelab-project-overview/blob/main/Dedicated%20Cybersecurity%20IDE%20and%20Lab%20Workspace%20Setup.md):
+4. [Dedicated Cybersecurity IDE and Lab Workspace Setup](https://github.com/khucker3d/cyber-homelab-project-overview/blob/main/Dedicated%20Cybersecurity%20IDE%20and%20Lab%20Workspace%20Setup.md): Dedicated development environment using Visual Studio Code and a structured CyberLab workspace.
 
 ---
 
