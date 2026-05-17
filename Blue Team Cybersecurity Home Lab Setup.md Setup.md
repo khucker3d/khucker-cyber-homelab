@@ -12,15 +12,30 @@ This project documents the design and implementation of a dedicated cybersecurit
 - Implement blue team monitoring and detection tools  
 - Create a scalable environment for continued learning and experimentation  
 
+## Lab Architecture
+                           INTERNET
+                               |
+                        [ Home Router ]
+                               |
+                    ---------------------
+                    |                   |
+               Windows 11 Host      VMware Workstation Pro
+                    |
+          -----------------------------------------
+          |         |         |         |         |
+          |         |         |         |         |
+     Win10 VM   Ubuntu VM  Ubuntu VM  Kali VM   Win10 VM
+      Client      Wazuh     Dashboard  Attacker   Client 2
+
 ## Lab Phases
 ### Phase 1: Home Cybersecurity Lab
-Established the physical and host-level foundation for the lab environment.
+- Established the physical and host-level foundation for the lab environment.
 
 ### Phase 2: Foundations
-Configured core infrastructure, virtualization, and system hardening.
+- Configured core infrastructure, virtualization, and system hardening.
 
 ### Phase 3: Blue Team Core Setup
-Deployed monitoring, logging, and detection capabilities.
+- Deployed monitoring, logging, and detection capabilities.
 
 ## Core Infrastructure
 - Windows 11 host system hardened  
@@ -41,23 +56,13 @@ Deployed monitoring, logging, and detection capabilities.
 - Deployed Wazuh SIEM for centralized logging  
 - Installed Sysmon for detailed endpoint visibility  
 - Enabled packet capture for network analysis  
-- Built Active Directory lab for identity-based scenarios  
+- Built an Active Directory lab for identity-based scenarios  
 
 ## Outcome
 - Fully operational cybersecurity home lab  
 - Centralized logging and monitoring capabilities  
 - Endpoint and network visibility established  
 - Scalable environment for blue team experimentation  
-
-
-## Skills Demonstrated
-- Lab architecture and environment design  
-- System hardening  
-- Virtualization setup  
-- SIEM deployment (Wazuh)  
-- Endpoint monitoring (Sysmon)  
-- Network analysis fundamentals  
-- Active Directory lab setup  
 
 ## Operational Considerations
 - Maintain regular snapshots before major changes  
