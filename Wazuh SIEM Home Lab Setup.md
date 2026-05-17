@@ -1,4 +1,4 @@
-# Blue Team Home Lab:
+# Wazuh SIEM Home Lab Setup:
 Author: Kellie Hucker  
 
 ## Overview
