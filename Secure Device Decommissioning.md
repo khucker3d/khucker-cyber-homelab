@@ -9,8 +9,6 @@ This project documents a secure, repeatable runbook for reclaiming a personally 
 ### Context
 This device was previously issued by a former employer and later transferred to me as personal hardware. At the time of reclaiming the system, it retained enterprise BitLocker encryption and potential management artifacts. Recovery keys and tenant access were not available, so the device was treated as untrusted. To ensure full removal of legacy controls, the rebuild process began with a clean installation of Windows 10 from trusted media, followed by an upgrade to Windows 11 Pro. The system was then re-secured using modern platform protections.
 
----
-
 ## Objective
 - Remove all legacy enterprise controls  
 - Eliminate inaccessible BitLocker encryption  
@@ -18,14 +16,10 @@ This device was previously issued by a former employer and later transferred to 
 - Re-enable platform security (TPM, Secure Boot, BitLocker)  
 - Establish a clean, trusted endpoint for cybersecurity lab use  
 
----
-
 ## Scope
 - Personally owned Windows laptop  
 - BitLocker enabled from prior employer  
 - Recovery key unavailable  
-
----
 
 ## Success Criteria
 - All partitions removed and disk wiped  
@@ -34,23 +28,17 @@ This device was previously issued by a former employer and later transferred to 
 - BitLocker re-enabled under personal ownership  
 - Device validated as a clean lab baseline  
 
----
-
 ## Problem Statement
 - Device retained enterprise BitLocker encryption  
 - Recovery key unavailable  
 - System trust could not be verified  
 - Standard reset options were insufficient or risky  
 
----
-
 ## Security Risks Identified
 - Encrypted data is inaccessible but still present  
 - Unknown enterprise key escrow and policies  
 - Potential compliance and privacy exposure  
 - Inability to verify system integrity  
-
----
 
 ## Actions Taken
 - Verified BitLocker and TPM state  
@@ -61,14 +49,10 @@ This device was previously issued by a former employer and later transferred to 
 - Re-enabled Secure Boot and TPM-backed encryption  
 - Validated system readiness for lab use  
 
----
-
 ## Outcome
 - 100 percent removal of legacy enterprise controls  
 - Clean and trusted system baseline  
 - Device ready for SIEM, VM, and malware lab environments  
-
----
 
 ## Skills Demonstrated
 - Endpoint security and device hardening  
@@ -77,23 +61,17 @@ This device was previously issued by a former employer and later transferred to 
 - Risk-based decision making  
 - OS provisioning and system validation  
 
----
-
 ## Preconditions
 - Physical access to the device  
 - BIOS or UEFI access  
 - Trusted Windows installation media  
 - Acceptance of full data destruction  
 
----
-
 ## What Not To Do
 - Do not attempt BitLocker bypass techniques  
 - Do not use untrusted third-party unlock tools  
 - Do not rely on "Reset this PC" in uncertain ownership scenarios  
 - Do not retain old partitions when establishing a trusted baseline  
-
----
 
 ## Key Steps (Technical Summary)
 ### 1. Validate BitLocker State
@@ -132,3 +110,6 @@ Booted from trusted installation media and deleted all partitions to remove all 
 ## Result
 - Delivered a clean, trusted endpoint suitable for cybersecurity lab environments.
 - Demonstrated strong risk-based decision-making in handling encrypted enterprise assets, along with practical experience in secure device decommissioning and system hardening.
+
+## Security Notes
+This project is intended for learning, personal security practice, and portfolio demonstration.
