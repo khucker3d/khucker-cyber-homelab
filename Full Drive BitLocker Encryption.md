@@ -44,4 +44,4 @@ This project documents enabling full disk encryption using BitLocker on Windows 
  - Suspend BitLocker before major BIOS or boot changes
 
 ## Security Notes
-This project is intended for learning, personal security practice, and portfolio demonstration.
+- This project is intended for learning, personal security practice, and portfolio demonstration.
