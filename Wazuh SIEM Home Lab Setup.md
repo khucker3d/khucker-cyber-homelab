@@ -93,4 +93,4 @@ Solution:
 - Used snapshots to stabilize known-good states
 
 ## Security Notes
-This project is intended for learning, personal security practice, and portfolio demonstration.
+- This project is intended for learning, personal security practice, and portfolio demonstration.
