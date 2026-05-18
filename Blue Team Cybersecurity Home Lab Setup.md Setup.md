@@ -27,42 +27,31 @@ In addition to standing up core infrastructure, the project involved troubleshoo
 ## Lab Phases
 *Note: I have detailed documentation on my personal Confluence site*
 ### Phase 1: Home Cybersecurity Lab
-- Established the physical and host-level foundation for the lab environment.
+1. Established the physical and host-level foundation for the lab environment.
 
 ### Phase 2: Foundations
-- Configured core infrastructure, virtualization, and system hardening.
+1. Configured core infrastructure, virtualization, and system hardening.
+  - Windows 11 host system hardened  
+  - Virtual machine environment configured  
+  - Snapshot system implemented for rollback and testing  
+  - External backup strategy established
 
 ### Phase 3: Blue Team Core Setup
-- Deployed monitoring, logging, and detection capabilities.
+1. Active Directory lab environment configured for identity-based scenarios 
+2. Deployed monitoring, logging, and detection capabilities.
+  - Wazuh SIEM deployed and operational  
+  - Sysmon installed for endpoint telemetry  
+  - Packet capture capability enabled
+  - Installed Sysmon for detailed endpoint visibility  
+  - Enabled packet capture for network analysis  
 
-## Core Infrastructure
-- Windows 11 host system hardened  
-- Virtual machine environment configured  
-- Snapshot system implemented for rollback and testing  
-- External backup strategy established  
-
-## Blue Team Capabilities
-- Wazuh SIEM deployed and operational  
-- Sysmon installed for endpoint telemetry  
-- Packet capture capability enabled  
-- Active Directory lab environment configured  
-
-## Key Actions Taken
-- Hardened Windows 11 host system  
-- Configured virtualization environment  
-- Built structured lab architecture  
-- Deployed Wazuh SIEM for centralized logging  
-- Installed Sysmon for detailed endpoint visibility  
-- Enabled packet capture for network analysis  
-- Built an Active Directory lab for identity-based scenarios  
-
-## Outcome
+## Results:
 - Fully operational cybersecurity home lab  
 - Centralized logging and monitoring capabilities  
 - Endpoint and network visibility established  
 - Scalable environment for blue team experimentation  
 
-## Operational Considerations
+## Tips:
 - Maintain regular snapshots before major changes  
 - Validate logging pipelines after updates  
 - Monitor system resource usage across VMs  
