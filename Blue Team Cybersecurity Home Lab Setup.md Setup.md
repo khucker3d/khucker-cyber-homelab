@@ -58,4 +58,4 @@ In addition to standing up core infrastructure, the project involved troubleshoo
 - Keep backups of critical lab components
 
 ## Security Notes
-This project is intended for learning, personal security practice, and portfolio demonstration.
+- This project is intended for learning, personal security practice, and portfolio demonstration.
