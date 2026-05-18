@@ -145,3 +145,6 @@ Created and executed a test script to confirm environment isolation and package 
  - Maintain a clean folder structure for scalability
  - Keep the Git repository updated for reproducibility
  - Validate PATH and environment variables when installing tools
+
+## Security Notes
+This project is intended for learning, personal security practice, and portfolio demonstration.
