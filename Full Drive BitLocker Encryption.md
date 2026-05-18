@@ -43,12 +43,5 @@ This project documents enabling full disk encryption using BitLocker on Windows 
  - Always store recovery keys in multiple secure locations
  - Suspend BitLocker before major BIOS or boot changes
 
-## Skills Demonstrated
- - Endpoint security
- - Encryption configuration (BitLocker)
- - Key management and recovery planning
- - OS hardening
- - Risk mitigation for data at rest
-
 ## Security Notes
 This project is intended for learning, personal security practice, and portfolio demonstration.
